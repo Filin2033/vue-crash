@@ -1,5 +1,8 @@
 <template>
   <div class="app">
+    <router-link to="/">Главная</router-link>
+    <router-link to="/todo">ToDo List</router-link>
+    <router-view/>
     <h1>Страница с постами</h1>
     <div class="app__btns">
       <my-button
