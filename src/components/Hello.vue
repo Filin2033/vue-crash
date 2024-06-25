@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="hello">
     <h1>Привет, {{ username }}!</h1>
   </div>
 </template>
@@ -13,3 +13,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.hello {
+  padding: 20px;
+}
+</style>

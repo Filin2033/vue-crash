@@ -14,7 +14,7 @@ export default {
 .btn {
   padding: 10px 15px;
   background: none;
-  color: teal;
+  color: rgb(0, 0, 0);
   border: 1px solid teal;
   border-radius: 14px;
   cursor: pointer;
