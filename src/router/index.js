@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import TodoList from '../components/TodoList.vue' 
-import Hello from '../components/Hello.vue' 
+import TodoList from '../components/pages/TodoList.vue' 
+import Hello from '../components/pages/Hello.vue' 
+import Calendar from '@/components/pages/Calendar.vue'
 
 const routes = [
   {
-    path: '/todo',
+    path: '/todo',  
     name: 'ToDo',
     component: TodoList 
   },
@@ -12,6 +13,11 @@ const routes = [
     path: '/',
     name: 'Hello',
     component: Hello
+  },
+  {
+    path: '/calendar',
+    name: 'Calendar',
+    component: Calendar
   }
 ]
 

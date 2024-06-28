@@ -3,6 +3,7 @@
     <div class="zaglav">
       <router-link to="/" class="router-link-style">ГЛАВНАЯ</router-link>
       <router-link to="/todo" class="router-link-style">TODO LIST</router-link>
+      <router-link to="/calendar" class="router-link-style">КАЛЕНДАРЬ</router-link>
     </div>
     <router-view/>
   </div>
